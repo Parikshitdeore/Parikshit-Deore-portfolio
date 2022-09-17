@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
-    padding: 2rem 2rem;
+    padding:0px;
+    margin: 0px 95px;
 }
 
 :root{
@@ -13,6 +14,29 @@ hr
 {
     margin: 2rem 0rem;
 }
+.navigation{
+    text-align: right;
+    background-color: #3b82f6;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+}
+.logo{
+text-align: left;
+color: white;
+font-size: large;
+font-weight:bold;
+}
+.nav-button{
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+.link-active{
+
+    font-weight: bold;
+}
+
 .head{
 padding: 2rem;
 }
@@ -36,6 +60,11 @@ padding: 2rem;
     margin:auto;
     max-width: 800px;
 }
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
 .link-primary{
     text-decoration: none;
     color: var(--primary-color);
@@ -56,24 +85,9 @@ padding: 2rem;
     list-style: none;
 }
 .list-inline{
-    display: inline;
-    padding: 0rem 1rem;
-}
-/**NAVIGATION**/
-.navigation{
-    background-color: #3b82f6;
-    padding: 1.5rem 1rem;
-    border-top-left-radius: 0.5rem;
-}
-.logo{
-color: white;
-font-size: large;
-font-weight:bold;
-}
-.nav-button{
-    display: inline;
     color: white;
-    text-decoration: none;
+    display: inline;
+    padding: 1rem 2rem;
 }
 
 .section{
@@ -86,4 +100,15 @@ font-weight:bold;
 }
 .ow{
     background-color:var(--off-white)
+}
+.footer{
+    margin:auto;
+    text-align: center;
+    border-top: 0.7rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 1rem;
+}
+.footer.ui{
+    padding-inline-start:0px;
 }
