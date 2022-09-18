@@ -6,6 +6,7 @@ body{
     margin-bottom: 0px;
     margin-left: 90px;
     margin-right: 90px;
+    width: 85%;
 }
 
 :root{
@@ -49,10 +50,10 @@ padding: 2rem;
     margin: auto;
     display: block;
     padding-top: 5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 2rem;
 }
 .heading{
-    padding: 3rem 1rem;
+    padding: 0.5rem 1rem;
     color: gray;
     text-align: center;
 }
@@ -97,11 +98,11 @@ padding: 2rem;
 
 .section{
     margin: auto;
-    padding: 3rem;
-    text-align: center;
+    padding-top:2rem;
     border-radius: 1rem;
-    max-width: 85%;
+    max-width: 60%;
     width: 100%;
+    text-align: left;
 
 }
 .section h1{
@@ -119,10 +120,16 @@ padding: 2rem;
     padding: 2rem 1rem;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
+    width: 100%;
 }
 .footer.ui{
     padding-inline-start:0px;
 }
 .space{
     padding: 15px;
+}
+.blog{
+    margin: auto;
+    max-width: 60%;
+    width: 100%;
 }

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
@@ -13,10 +14,10 @@ body{
     --secondary-color:grey;
     --off-white:#f3f4f6;
 }
-br
-{
-    margin: 2rem 0rem;
+.space{
+    padding: 15px;
 }
+
 .navigation{
     text-align: right;
     background-color: #3b82f6;
@@ -49,7 +50,7 @@ padding: 2rem;
     margin: auto;
     display: block;
     padding-top: 5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 2rem;
 }
 .heading{
     padding: 3rem 1rem;
@@ -74,7 +75,7 @@ padding: 2rem;
     text-decoration: none;
     color: var(--primary-color);
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: white;
     padding: 0.5rem 1rem;
 }
@@ -83,7 +84,7 @@ padding: 2rem;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 .non-bullet-list
 {
@@ -100,7 +101,7 @@ padding: 2rem;
     padding: 3rem;
     text-align: center;
     border-radius: 1rem;
-    max-width: 85%;
+    max-width: 1000px;
     width: 100%;
 
 }
@@ -111,6 +112,7 @@ padding: 2rem;
     background-color:var(--off-white)
 }
 .footer{
+    padding: top 4rem;
     margin:auto;
     text-align: center;
     border-top: 0.7rem;
@@ -122,7 +124,4 @@ padding: 2rem;
 }
 .footer.ui{
     padding-inline-start:0px;
-}
-.space{
-    padding: 15px;
 }
