@@ -2,7 +2,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
     padding:0px;
-    margin: 0px 95px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 :root{
@@ -10,14 +13,14 @@ body{
     --secondary-color:grey;
     --off-white:#f3f4f6;
 }
-hr
+br
 {
     margin: 2rem 0rem;
 }
 .navigation{
     text-align: right;
     background-color: #3b82f6;
-    padding: 1rem 1rem;
+    padding: 0.7rem 1rem;
     border-bottom-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
 }
@@ -45,9 +48,11 @@ padding: 2rem;
     max-width: 350px;
     margin: auto;
     display: block;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 .heading{
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     color: gray;
     text-align: center;
 }
@@ -71,13 +76,13 @@ padding: 2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 .link-secondary{
     text-decoration: none;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
 .non-bullet-list
@@ -91,9 +96,13 @@ padding: 2rem;
 }
 
 .section{
-    padding: 1.5rem;
+    margin: auto;
+    padding: 3rem;
     text-align: center;
     border-radius: 1rem;
+    max-width: 85%;
+    width: 100%;
+
 }
 .section h1{
 /**1:08:00**/
@@ -107,7 +116,9 @@ padding: 2rem;
     border-top: 0.7rem;
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
 }
 .footer.ui{
     padding-inline-start:0px;
