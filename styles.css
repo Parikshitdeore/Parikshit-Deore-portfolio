@@ -4,8 +4,8 @@ body{
     padding:0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 :root{
@@ -18,11 +18,13 @@ br
     margin: 2rem 0rem;
 }
 .navigation{
+    margin: auto;
     text-align: right;
     background-color: #3b82f6;
     padding: 0.7rem 1rem;
     border-bottom-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
+    width: 85%;
 }
 .logo{
 text-align: left;
@@ -92,7 +94,7 @@ padding: 2rem;
 .list-inline{
     color: white;
     display: inline;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 }
 
 .section{
@@ -126,3 +128,5 @@ padding: 2rem;
 .space{
     padding: 15px;
 }
+
+
